@@ -1,0 +1,23 @@
+body{
+  height: 100vh;
+  background-image: url(https://cdn.wallpapersafari.com/46/99/p7qVnM.jpg);
+  background-size: cover;
+}
+
+
+.nuclear-btn:hover{
+  cursor: pointer;
+  
+}
+.roach-btn:hover{
+  cursor: pointer;
+  
+}
+.foot-btn:hover{
+  cursor: pointer;
+  
+}
+.nuclear-btn:hover{
+  cursor: pointer;
+  
+}
