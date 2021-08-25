@@ -7,17 +7,16 @@ body{
 
 .nuclear-btn:hover{
   cursor: pointer;
+  user-select: none;
   
 }
 .roach-btn:hover{
   cursor: pointer;
+  user-select: none;
   
 }
 .foot-btn:hover{
   cursor: pointer;
-  
-}
-.nuclear-btn:hover{
-  cursor: pointer;
+  user-select: none;
   
 }

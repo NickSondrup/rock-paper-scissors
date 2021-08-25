@@ -22,29 +22,29 @@ function otherPlay(playerChoice){
   }
   
   if(playerScore === computerScore){
-    document.getElementById("winnerText").innerText = "Tie!"
+    document.getElementById("winnerText").textContent = "Tie!"
   }
   else if(playerScore === 0 && computerScore === 1){
     document.getElementById("winnerText").innerText = "Computers have taken over!"
   }
   else if(playerScore === 0 && computerScore === 2){
-    document.getElementById("winnerText").innerText = "The Humans survive, for now..."
+    document.getElementById("winnerText").textContent = "The Humans survive, for now..."
   }
   else if(playerScore === 1 && computerScore === 0){
     document.getElementById("winnerText").innerText = "The Humans survive, for now..."
   }
   else if(playerScore === 1 && computerScore === 2){
-    document.getElementById("winnerText").innerText = "Computers have taken over!"
+    document.getElementById("winnerText").textContent = "Computers have taken over!"
   }
   else if(playerScore === 2 && computerScore === 0){
-    document.getElementById("winnerText").innerText = "Computers have taken over!"
+    document.getElementById("winnerText").textContent = "Computers have taken over!"
   }
   else if(playerScore === 2 && computerScore === 1){
-    document.getElementById("winnerText").innerText = "The Humans survive, for now..."
+    document.getElementById("winnerText").textContent = "The Humans survive, for now..."
   }
   
-  document.getElementById('playersChoice').innerText = "Your Choice: " + playerChoice
-  document.getElementById('computerChoice').innerText = "Computer Choice: " + computerChoice
+  document.getElementById('playersChoice').textContent = "Your Choice: " + playerChoice
+  document.getElementById('computerChoice').textContent = "Computer Choice: " + computerChoice
   
 }
 // REVIEW First try below
